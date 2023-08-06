@@ -8,4 +8,5 @@
 - Coroutines
 
 ### App Preview
+**(Preview takes a few seconds to load)*
 ![](media/appPreview.gif)
