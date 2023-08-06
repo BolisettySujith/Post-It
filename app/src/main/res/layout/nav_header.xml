@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:background="#675C7B">
+        <ImageView
+            android:id="@+id/nav_profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#00000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/nav_profile_name"
+            android:text="@string/nav_profile_name"
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_profile_email"
+            android:text="@string/nav_description"
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</layout>
